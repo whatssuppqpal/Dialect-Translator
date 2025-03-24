@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0078D7;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.splash-content img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.splash-content h1 {
+  font-size: 2rem;
+  margin: 0;
+}
